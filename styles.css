@@ -88,6 +88,7 @@ div h2{
 }
 .middle a{
     display: block;
+    margin-bottom: 0.2rem;
     padding: 1rem 2rem;
     border-radius: 0.3rem;
     box-shadow: 0 5px 10px rgba(99, 97, 97, 0.418);
