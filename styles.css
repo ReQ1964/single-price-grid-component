@@ -24,7 +24,7 @@ body{
     background-color: var(--light-gray);
     font-family: 'Karla', sans-serif;
     font-size: 16px;
-    color: var(--light-gray);
+    color: white;
     letter-spacing: 0.2px;
 }
 
