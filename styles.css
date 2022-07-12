@@ -8,9 +8,9 @@
 :root{
     /* PRIMARY COLORS */
     --cyan: hsl(179, 62%, 43%);
-    --light-cyan: hsl(179, 58%, 47%);
+    --light-cyan: hsl(179, 46%, 54%);
     --dark-cyan: hsl(179, 81%, 38%);
-    --bright-yellow: hsl(71, 66%, 47%);
+    --bright-yellow: hsl(71, 75%, 55%);
     /* NEUTRAL COLORS */
     --light-gray: hsl(204, 43%, 93%);
     --grayish-blue: hsl(218, 22%, 67%);
@@ -51,7 +51,7 @@ div h2{
 }
 .upper p:nth-of-type(1){
     color: var(--bright-yellow);
-    margin-bottom: 1.2rem;
+    margin-bottom: 1rem;
     font-weight: 700;
 
 }
@@ -71,12 +71,12 @@ div h2{
 .middle p.dollar{
     display: flex;
     align-items: center;
-    margin-bottom: 1.2rem;
-    font-size: 2rem;
-
+    margin-bottom: 1rem;
+    font-size: 2em;
+    font-weight: 700;
 }
 .middle p.dollar span{
-    color: rgba(224, 224, 224, 0.616);
+    color: rgba(255, 251, 251, 0.493);
     margin-left: 1rem;
     font-size: 1rem;
 }
@@ -89,7 +89,7 @@ div h2{
     border-radius: 0.3rem;
     box-shadow: 0 5px 10px rgba(99, 97, 97, 0.418);
     background-color: var(--bright-yellow);
-    color: var(--light-gray);
+    color: white;
     text-align: center;
     text-decoration: none;
     font-weight: 700;
@@ -109,7 +109,7 @@ div h2{
     border-radius: 0 0 0.3rem 0.3rem;
 }
 .lower p{
-    color: rgba(241, 241, 241, 0.616);
+    color: rgba(255, 255, 255, 0.753);
 }
 .lower p:not(:last-child){
     margin-bottom: 0.4rem;
