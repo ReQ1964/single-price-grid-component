@@ -31,7 +31,7 @@ body{
 .container{
     margin: 4.5rem 2rem;
     box-shadow: 0 8px 10px rgba(156, 153, 153, 0.418);
-    max-width: 375px;
+    max-width: 300px;
 }
 .container .upper, .container .wrapper div{
     padding: 1.625rem;
